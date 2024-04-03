@@ -1,0 +1,132 @@
+.skills{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.skills h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: rgb(0, 0, 0) 2px 3px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #6886b6;
+    border-top: 2px black solid;
+}
+
+.skills p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #b2bfd2;
+    font-size:large ;
+}
+
+.skills .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.btn button{
+    height: 30px;
+    width: 80px;
+    background-color: #43627f;
+    border: none;
+    cursor: pointer;
+    color: #bed0e9;
+    border-radius: 30px;
+    font-size:medium ;
+}
+
+.btn button:hover{
+    background-color: #304c66;
+}
+
+#foto img{
+    height: 80px;
+    width: 80px;
+    margin: 8px;
+}
+
+.listagem{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    'html css js jquery bootstrap react '
+    'sass git gulp py vue node'
+    ;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.listagem li{
+    list-style: none;
+}
+
+.listagem li img{
+    padding: 8px;
+    background-color: #32516ef8;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.html{
+    grid-area: html;
+}
+
+.css{
+    grid-area: css;
+}
+
+.js{
+    grid-area: js;
+}
+
+.jquery{
+    grid-area: jquery;
+}
+
+.bootstrap{
+    grid-area: bootstrap;
+}
+
+.sass{
+    grid-area: sass;
+}
+
+.git{
+    grid-area: git;
+}
+
+.gulp{
+    grid-area: gulp;
+}
+
+.py{
+    grid-area: py;
+}
+
+.vue{
+    grid-area: vue;
+}
+
+.react{
+    grid-area: react;
+}
+
+.node{
+    grid-area: node;
+}
+
+.py{
+    grid-area: py;
+}

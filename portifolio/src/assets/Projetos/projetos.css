@@ -1,0 +1,42 @@
+.projetos h2{
+    text-align: center;
+    border-top: black 2px solid;
+    padding: 20px;
+    text-shadow: rgb(0, 0, 0) 2px 3px;
+    color: #748db5cd;
+}
+
+.projetos p{
+    text-align: center;
+    color: #b2bfd2;
+    font-size:large ;
+}
+
+.projetos .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.listagem2{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.listagem2 li{
+    text-align: center;
+    list-style: none;
+    border: 2px solid black;
+    margin: 0px 150px;
+    padding: 20px;
+}
+
+.listagem2 li a{
+    text-decoration: none;
+    color: #b2bfd2;
+    font-size: x-large;
+}

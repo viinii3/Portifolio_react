@@ -1,0 +1,30 @@
+.header{
+    grid-area: header;
+}
+
+.header h1{
+    color: #748db5cd;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-shadow: rgb(3, 2, 2) 2px 3px;
+}
+
+.nav{
+    grid-area: nav;
+}
+
+.nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 30px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #b2bfd2;
+    font-size: larger;
+}

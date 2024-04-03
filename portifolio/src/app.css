@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*geral*/
+.container{
+    display: grid;
+    grid-template-areas: 
+    'header nav'
+    'sobre sobre'
+    'skills skills'
+    'projetos projetos'
+    'contato contato'
+    'footer footer'
+    ;
+    background-color: #0d2a4a;
+}
+
+.sobre{
+    grid-area: sobre;
+}
+
+.skills{
+    grid-area: skills;
+}
+
+.projetos{
+    grid-area: projetos;
+}
+
+.contato{
+    grid-area: contato;
+}
+
+.footer{
+    grid-area: footer;
+}

@@ -1,0 +1,24 @@
+.contato h2{
+    text-align: center;
+    border-top: 2px solid black;
+    padding: 20px;
+    text-shadow: rgb(0, 0, 0) 2px 3px;
+    color: #748db5cd;
+}
+
+.listagem3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    padding: 20px;
+}
+
+.listagem3 li{
+    list-style: none;
+}
+
+.listagem3 li img{
+    height: 95px;
+    width: 95px;
+}

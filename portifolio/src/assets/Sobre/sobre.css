@@ -1,0 +1,53 @@
+.sobre{
+    display: grid;
+    grid-template-areas: 
+    'titulo titulo'
+    'fotoPerfil paragrafo'
+    'fotoPerfil paragrafo'
+    ;
+    margin-bottom: 40px;
+    column-gap: 20px;
+}
+
+.sobre .titulo{
+    border-top: black 2px solid;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.titulo{
+    grid-area: titulo;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo h2{
+    color: #748db5cd;
+    padding-bottom: 20px;
+    text-shadow: rgb(0, 0, 0) 2px 3px;
+}
+
+.fotoPerfil{
+    grid-area: fotoPerfil;
+    margin-left: 40px;
+}
+
+.fotoPerfil img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.paragrafo{
+    grid-area: paragrafo;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.paragrafo p{
+    text-align: center;
+    color: #b2bfd2;
+    font-size:large ;
+}
