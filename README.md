@@ -6,9 +6,9 @@
 
 <p>O projeto está pronto mas ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:</p>
 
-- [ ] Tornar responsivo
-- [ ] Adicionar funcionalidade aos botões
-- [ ] Futuramente torna-lo mais minha cara
+- [ ] Tornar responsivo;
+- [ ] Adicionar funcionalidade aos botões;
+- [ ] Futuramente torna-lo mais minha cara;
 
 ##
 ### Ferramentas utilizadas:
