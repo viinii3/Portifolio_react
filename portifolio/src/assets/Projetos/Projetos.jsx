@@ -6,9 +6,7 @@ function Projetos(){
             <h2>Projetos</h2>
             <p>
                 Abaixo listarei alguns projetos realizados nos quais foram utilizadas as competências citadas acima:            </p>
-            <div className='btn'>
-                <button>Ver mais</button>
-            </div>
+            
             <ul className='listagem2'>
                 <li>
                     <a href="https://projeto3-virid.vercel.app/">
