@@ -7,9 +7,7 @@ function Skills(){
             <p>
                 Abaixo listarei alguns conhecimentos na área que adquiri ao longo dos anos.            
             </p>
-            <div className='btn'>
-                <button>Ver mais</button>
-            </div>
+        
                 <ul className='listagem'>
                     <li id='foto' className="html">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
